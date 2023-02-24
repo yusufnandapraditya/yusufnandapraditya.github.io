@@ -4,7 +4,10 @@ body {
 }
 
 .img-full {
-    width: 100%;
+    margin-top: 48px;
+    margin-left: 200px;
+    height: 512px;
+    width: auto;
 }
 
 .navbar {
@@ -413,9 +416,9 @@ body {
     .button-hero {
         position: absolute;
         left: 256px;
-        top: 1180px;
+        top: 1040px;
     }
-
+    
     .porto-text p {
         font-family: Poppins;
         font-size: 16px;
@@ -588,24 +591,20 @@ body {
     .left-hero-text {
         padding: 70px 0;
     }
+    
+    .left-hero-text {
+        margin: 24px;
+    }
 
     .left-hero-text h1 {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .left-hero-text p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
-    .hero-decor {
-        position: absolute;
-        width: auto;
-        height: 360px;
-        left: 64px;
-        top: 190px;
-        z-index: -999;
-
-    }
+  
 
     .button-hero {
         position: absolute;
@@ -698,10 +697,10 @@ body {
     }
 
 
-    .skill-icon img {
+   .skill-icon img {
         height: 24px;
         width: auto;
-        margin: 18px;
+        margin: 24px;
     }
 
     .experience-text p {
