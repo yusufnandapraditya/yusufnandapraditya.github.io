@@ -296,6 +296,7 @@ body {
 }
 
 .experience-list h2 {
+    margin-left: 128px;
     margin-top: 128px;
     font-family: 'Poppins';
     font-style: normal;
