@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap");
+
+:root {
+  --font-primary: "Poppins", sans-serif;
+}
+
+* {
+  font-family: var(--font-primary);
+}
+
+body {
+  color: #fafafa;
+  background-color: #201f1f;
+}
+
+.text-secondary {
+  color: #c4c4c4 !important;
+  line-height: 150%;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background-color: #003078;
+  border: none;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.hero-section {
+  background: linear-gradient(
+    45.28deg,
+    rgba(255, 255, 255, 0) 28.94%,
+    rgba(244, 245, 141, 0.0312417) 53.13%,
+    rgba(80, 124, 237, 0.3) 77.88%
+  );
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #c4c4c4;
+  margin-bottom: 28px;
+  line-height: 150%;
+}
+
+.hero-decoration {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  top: 40px;
+  left: -20px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 80px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.content-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero-img {
+  width: 80%;
+}
+
+.porto-section {
+  background-color: #272831;
+  border-radius: 100px 100px 0 0;
+}
+
+.exp-section {
+  background: linear-gradient(to top left, #ffffff00, #507ded3f);
+}
+
+.contact-section,
+footer {
+  background-color: #1a1b23;
+}
+
+/* timeline css */
+.timeline > ul,
+.timeline > li {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline.wrapper {
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.timeline h1 {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+
+.timeline .sessions {
+  margin-top: 2rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+li.timeline-point {
+  padding-bottom: 1.5rem;
+  border-left: 1px solid white;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.timeline li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+}
+
+.timeline li:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 3px 3px 0px #bab5f8;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+}
+
+.timeline .timeline-title {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.timeline-time {
+  font-size: 20px;
+  color: #b0b0b0;
+  margin-bottom: 8px;
+}
+
+/* running text */
+
+marquee {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.runtext-container {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  margin-bottom: 60px;
+  padding: 0 3px 0 3px;
+}
+
+.main-runtext {
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+}
+
+.runtext-container .holder {
+  position: relative;
+  overflow: visible;
+  display: inline;
+  float: left;
+}
+
+.runtext-container .holder .text-container {
+  display: inline;
+}
+
+.runtext-container .holder a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  line-height: -0.5em;
+  font-size: 64px;
+  font-family: "Goudy Bookletter 1911", serif;
+}
+
+.circle-running {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 60px;
+}
