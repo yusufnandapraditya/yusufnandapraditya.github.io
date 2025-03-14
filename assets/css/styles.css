@@ -14,6 +14,10 @@ body {
   background-color: #201f1f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text-secondary {
   color: #c4c4c4 !important;
   line-height: 150%;
@@ -21,7 +25,7 @@ body {
 
 .btn {
   font-weight: bold;
-  border-radius: 12px;
+  border-radius: 5px;
   font-size: 15px;
 }
 

@@ -64,7 +64,17 @@
   .hero-desc {
     font-size: 16px;
   }
+  p {
+    font-size: 12px;
+  }
 
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-subtitle {
+    font-size: 12px;
+  }
   .timeline .timeline-title {
     font-size: 18px;
   }
