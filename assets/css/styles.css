@@ -101,6 +101,14 @@ a {
   font-size: 24px;
 }
 
+.ilst-2 {
+  background-color: rgb(186, 177, 164);
+}
+
+.ilst-4 {
+  background-color: rgb(184, 195, 212);
+}
+
 .exp-section {
   background: linear-gradient(to top left, #ffffff00, #507ded3f);
 }
