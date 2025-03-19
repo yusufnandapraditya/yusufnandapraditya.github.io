@@ -102,11 +102,11 @@ a {
 }
 
 .ilst-2 {
-  background-color:rgb(186, 177, 164);
+  background-image: url("../images/bgist2.png");
 }
 
 .ilst-4 {
-  background-image: url("../images/bgist2.png");
+  background-image: url("../images/bgist4.png");
 }
 
 .exp-section {
