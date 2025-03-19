@@ -50,7 +50,7 @@ a {
 }
 
 .hero-title {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -106,7 +106,7 @@ a {
 }
 
 .ilst-4 {
-  background-color: rgb(184, 195, 212);
+  background-image: url("../images/bgist2.png");
 }
 
 .exp-section {
